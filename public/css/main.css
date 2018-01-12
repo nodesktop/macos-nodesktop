@@ -1,0 +1,76 @@
+
+
+body, html {
+	min-height: 100%;
+}
+
+body {
+	/* background */
+	/* https://youtu.be/cUF-q50DPPM */
+	background-image: url(../assets/Sierra.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.menu-bar {
+	background-color: white;
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+
+	height: 25px;
+	width: 100%;
+}
+
+
+
+.clickable {
+	/* CSS classes and ids */
+
+	background-color: wheat;
+	height: 70px;
+	width: 80px;
+	/*border: 5px solid black;*/
+	/*float: right;*/
+	margin: 0px;
+}
+
+.clickable .title {
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px gray;
+}
+
+#about {
+	background-color: red;
+}
+#education {
+	background-color: green;
+
+}
+#experience {
+
+}
+#research {
+
+}
+#academics {
+
+}
+#projects {
+
+}
+
+
+.clickable img {
+	/* folders */
+	/* https://youtu.be/Wa_QmxwpFC8 */
+	display: block;
+	/*margin-left: auto;*/
+	/*margin-right: 5%;*/
+	/*margin-bottom: 2%;*/
+	max-height: 100%;
+	max-width: 100%;
+}
